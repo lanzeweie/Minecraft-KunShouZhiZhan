@@ -1,0 +1,2 @@
+scoreboard objectives add world_setup_status dummy
+scoreboard objectives add player_processed dummy
