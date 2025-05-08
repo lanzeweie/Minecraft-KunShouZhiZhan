@@ -1,0 +1,6 @@
+execute as @p unless score 结束游戏 play_end matches 60 unless score 结束游戏 play_end matches 0 run execute as @a[gamemode=survival] at @s run summon minecraft:firework_rocket ~ ~ ~ {LifeTime:25, FireworksItem:{id:firework_rocket, Count:1, tag:{Fireworks:{Flight:3, Explosions:[{Type:1, Colors:[I;11743532], FadeColors:[I;15790320]}, {Tick:30, Type:2, Colors:[I;11546150], FadeColors:[I;16711856]}]}}}}
+execute as @p unless score 结束游戏 play_end matches 60 unless score 结束游戏 play_end matches 0 run execute as @a[gamemode=survival] at @s run summon minecraft:experience_orb ~ ~2 ~ {Value:5}
+execute as @p unless score 结束游戏 play_end matches 60 unless score 结束游戏 play_end matches 0 run execute as @a[gamemode=survival] at @s run say §b我乃天选第一人§r
+execute as @p unless score 结束游戏 play_end matches 60 unless score 结束游戏 play_end matches 0 run execute as @a[gamemode=survival] at @s run item replace entity @s weapon.offhand with minecraft:firework_rocket 64
+
+execute as @p unless score 结束游戏 play_end matches 60 unless score 结束游戏 play_end matches 0 run schedule function hanhankszz:hexin/hexin_0_end 0.1s

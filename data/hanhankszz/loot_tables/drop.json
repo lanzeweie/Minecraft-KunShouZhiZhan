@@ -1,0 +1,819 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 40,
+                    "name": "minecraft:stone_sword",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,display:{Name:\"[{\\\"text\\\":\\\"黑骑士大剑\\\",\\\"italic\\\":false,\\\"bold\\\":false,\\\"color\\\":\\\"#efbb24\\\"}]\",Lore:[\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false}]\",\"[{\\\"text\\\":\\\"对抗亡灵所诞生的黑骑士们\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"如今只剩下这大剑徘徊于世\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_purple\\\"}]\",\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_purple\\\"}]\",\"[{\\\"text\\\":\\\"再次如同行尸走肉般挥动它\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"大剑\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gray\\\"}]\"]},Enchantments:[{id:\"sharpness\",lvl:2},{id:\"smite\",lvl:9},{id:\"unbreaking\",lvl:1}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 40,
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:10,Slot:\"offhand\",Name:\"generic.max_health\",UUID:[I;-123031,208013,111458,-416026]}],display:{Name:\"[{\\\"text\\\":\\\"骑士大盾\\\",\\\"italic\\\":false,\\\"color\\\":\\\"#f7c242\\\"}]\",Lore:[\"[{\\\"text\\\":\\\"知名骑士的大盾\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"盾面上绘有圣徽\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_purple\\\"}]\",\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_purple\\\"}]\",\"[{\\\"text\\\":\\\"大盾骑士是主祭的守卫，\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"此盾受到祝福，因此让使用者拥有额外生命值\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\"]},Enchantments:[{id:\"unbreaking\",lvl:2}],BlockEntityTag:{Base:0,Patterns:[{Pattern:\"bo\",Color:0},{Pattern:\"ss\",Color:8},{Pattern:\"mr\",Color:15},{Pattern:\"gru\",Color:8},{Pattern:\"flo\",Color:0},{Pattern:\"gra\",Color:0}]},HideFlags:32}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 40,
+                    "name": "minecraft:netherite_sword",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Amount:-3,Slot:\"mainhand\",Name:\"generic.attack_speed\",UUID:[I;-123031,64713,111458,-129426]},{AttributeName:\"generic.attack_speed\",Amount:-3,Slot:\"offhand\",Name:\"generic.attack_speed\",UUID:[I;-123031,64813,111458,-129626]},{AttributeName:\"generic.movement_speed\",Amount:-0.05,Slot:\"mainhand\",Name:\"generic.movement_speed\",UUID:[I;-123031,64913,111458,-129826]},{AttributeName:\"generic.movement_speed\",Amount:0.05,Slot:\"offhand\",Name:\"generic.movement_speed\",UUID:[I;-123031,65013,111458,-130026]},{AttributeName:\"generic.attack_damage\",Amount:12,Slot:\"mainhand\",Name:\"generic.attack_damage\",UUID:[I;-123031,65113,111458,-130226]},{AttributeName:\"generic.attack_damage\",Amount:6,Slot:\"offhand\",Name:\"generic.attack_damage\",UUID:[I;-123031,65213,111458,-130426]}],display:{Name:\"[{\\\"text\\\":\\\"猎龙巨剑\\\",\\\"italic\\\":false,\\\"color\\\":\\\"#f7c242\\\"}]\",Lore:[\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false}]\",\"[{\\\"text\\\":\\\"打造用以猎龙的武器\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"武器就算是放在同类武器中\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"也显得巨大的超乎常理\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"因此也有异常的强大威力\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_purple\\\"}]\",\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_purple\\\"}]\",\"[{\\\"text\\\":\\\"因重量原因,使用者操作时会受到移速影响\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gray\\\"}]\",\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gray\\\"}]\",\"[{\\\"text\\\":\\\"巨大剑\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gray\\\"}]\"],Enchantments:[{id:\"sharpness\",lvl:6},{id:\"smite\",lvl:1}]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 40,
+                    "name": "minecraft:elytra",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"[{\\\"text\\\":\\\"保护者之翼\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",Lore:[\"{\\\"text\\\":\\\"——————————————————\\\",\\\"color\\\":\\\"dark_aqua\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}\",\"{\\\"text\\\":\\\"被赐福的翅膀\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}\",\"{\\\"text\\\":\\\"可保护你的蓝天之游\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}\",\"{\\\"text\\\":\\\"——————————————————\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}\",\"{\\\"text\\\":\\\"护甲 +15\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}\"]},AttributeModifiers:[{AttributeName:\"generic.armor\",Operation:0,Amount:20d,Slot:\"chest\",Name:\"Armor\",UUID:[I;1498693494,1027158888,1898994005,860320107]}],RepairCost:2147483647,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:2s},{id:\"minecraft:protection\",lvl:1s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 36,
+                    "name": "minecraft:stone_sword",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"[{\\\"text\\\":\\\"漆黑之刃\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false}]\",Lore:[\"[{\\\"text\\\":\\\"——————————————————\\\",\\\"color\\\":\\\"dark_aqua\\\"}]\",\"[{\\\"text\\\":\\\"死寂沉沉的剑刃\\\",\\\"color\\\":\\\"green\\\"}]\",\"[{\\\"text\\\":\\\"没有生机\\\",\\\"color\\\":\\\"green\\\"}]\",\"[{\\\"text\\\":\\\"充斥绝望\\\",\\\"color\\\":\\\"green\\\"}]\",\"[{\\\"text\\\":\\\"如同身处死者之界\\\",\\\"color\\\":\\\"green\\\"}]\",\"[{\\\"text\\\":\\\"——————————————————\\\",\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"生命值 -18\\\",\\\"color\\\":\\\"gray\\\"}]\",\"[{\\\"text\\\":\\\"伤害 +13\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true}]\",\"[{\\\"text\\\":\\\"对多肢体生物有额外伤害\\\",\\\"color\\\":\\\"gray\\\"}]\",\"[{\\\"text\\\":\\\"——————————————————\\\",\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\" \\\"}]\"]},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Slot:\"mainhand\",Amount:13,Operation:0,UUID:[I;1498693494,1027158888,1898994005,860320107]},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Slot:\"offhand\",Amount:13,Operation:0,UUID:[I;1498693494,1027158888,1898994005,860320107]},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Slot:\"offhand\",Amount:-18,Operation:0,UUID:[I;1898693494,1127158888,1298994005,360320107]},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Slot:\"mainhand\",Amount:-10,Operation:0,UUID:[I;1848693494,1127158888,1298994005,360320107]}],RepairCost:2147483647,Enchantments:[{id:\"minecraft:sharpness\",lvl:2s},{id:\"minecraft:looting\",lvl:3s},{id:\"minecraft:bane_of_arthropods\",lvl:5s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 35,
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"[{\\\"text\\\":\\\"光明之刃\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false}]\",Lore:[\"{\\\"text\\\":\\\"——————————————————\\\",\\\"color\\\":\\\"dark_aqua\\\"}\",\"{\\\"text\\\":\\\"这把剑洋溢着温暖\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"有着心旷神怡的能力\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"即使在最危险的时刻\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"也能让人安定\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"——————————————————\\\",\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"护甲 +10\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"伤害 +10\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"对亡灵生物有额外伤害\\\",\\\"color\\\":\\\"gray\\\"}\",\"{\\\"text\\\":\\\"——————————————————\\\",\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\" \\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Slot:\"mainhand\",Amount:10,Operation:0,UUID:[I;1498693494,1027158888,1898994005,860320107]},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Slot:\"offhand\",Amount:10,Operation:0,UUID:[I;1498693494,1027158888,1898994005,860320107]},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Slot:\"offhand\",Amount:10,Operation:0,UUID:[I;1898693494,1127158888,1298994005,360320107]},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Slot:\"mainhand\",Amount:10,Operation:0,UUID:[I;1848693494,1127158888,1298994005,360320107]}],RepairCost:2147483647,Enchantments:[{id:\"minecraft:smite\",lvl:5s},{id:\"minecraft:knockback\",lvl:1s},{id:\"minecraft:sharpness\",lvl:2s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 41,
+                    "name": "minecraft:iron_shovel",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"[{\\\"text\\\":\\\"兵锹\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false}]\",Lore:[\"{\\\"text\\\":\\\"——————————————————\\\",\\\"color\\\":\\\"dark_aqua\\\"}\",\"{\\\"text\\\":\\\"英勇的士兵啊\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"请再快一点\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"以至超越生死\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"——————————————————\\\",\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"使用者增加\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"移动速度 +0.05\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"伤害 +4\\\",\\\"color\\\":\\\"red\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Slot:\"mainhand\",Amount:4,Operation:0,UUID:[I;1498693494,1027158888,1898994005,860320107]},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Slot:\"offhand\",Amount:4,Operation:0,UUID:[I;1498693494,1027158888,1898994005,860320107]},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Slot:\"offhand\",Amount:0.01,Operation:0.05,UUID:[I;1898693494,1127158888,1298994005,360320107]},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Slot:\"mainhand\",Amount:0.05,Operation:0,UUID:[I;1898693494,1127158888,1298994005,360320107]}],RepairCost:2147483647,Enchantments:[{id:\"minecraft:efficiency\",lvl:8s},{id:\"minecraft:unbreaking\",lvl:6s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 42,
+                    "name": "minecraft:golden_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"[{\\\"text\\\":\\\"金色闪耀\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false}]\",Lore:[\"{\\\"text\\\":\\\"——————————————————\\\",\\\"color\\\":\\\"dark_aqua\\\"}\",\"{\\\"text\\\":\\\"一把金光闪闪的矿镐\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"不知光从何发出\\\",\\\"color\\\":\\\"green\\\"}\",\"{\\\"text\\\":\\\"增加生命值\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"10❤\\\",\\\"color\\\":\\\"red\\\"}\",\"{\\\"text\\\":\\\"增加伤害\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true}\",\"{\\\"text\\\":\\\"9♥\\\",\\\"color\\\":\\\"red\\\"}\"]},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Slot:\"mainhand\",Amount:9,Operation:0,UUID:[I;1498693494,1027158888,1898994005,860320107]},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Slot:\"offhand\",Amount:9,Operation:0,UUID:[I;1498693494,1027158888,1898994005,860320107]},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Slot:\"offhand\",Amount:20,Operation:0,UUID:[I;1898693494,1127158888,1298994005,360320107]},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Slot:\"mainhand\",Amount:20,Operation:0,UUID:[I;1898693494,1127158888,1298994005,360320107]}],RepairCost:2147483647,Enchantments:[{id:\"minecraft:aqua_affinity\",lvl:1s},{id:\"minecraft:efficiency\",lvl:6s},{id:\"minecraft:fortune\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:5s}]}"
+                        }
+                    ]
+                },
+
+
+
+                  {
+                    "type": "item",
+                    "weight": 80,
+                    "name": "minecraft:stone_sword",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:998,AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:7,Slot:\"mainhand\",Name:\"generic.attack_damage\",UUID:[I;-123031,127113,111458,-254226]}],display:{Name:\"{\\\"text\\\":\\\"处刑者大剑\\\",\\\"italic\\\":false,\\\"color\\\":\\\"#f7c242\\\",\\\"bold\\\":false}\",Lore:[\"{\\\"text\\\":\\\"\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"处刑者使用的大剑\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"这个国度把处刑当作成观赏节目\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"因此使用的剑刃较钝\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"剑身多为菱角\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"不能一击毙命，但是能够给予受刑者带来大量痛苦\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_purple\\\"}\",\"{\\\"text\\\":\\\"大剑\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gray\\\"}\"]},Enchantments:[{id:\"bane_of_arthropods\",lvl:8},{id:\"looting\",lvl:3},{id:\"unbreaking\",lvl:1}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 40,
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:998,AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Amount:4,Slot:\"mainhand\",Name:\"generic.attack_speed\",UUID:[I;-123031,163313,111458,-326626]},{AttributeName:\"generic.attack_damage\",Amount:3,Slot:\"mainhand\",Name:\"generic.attack_damage\",UUID:[I;-123031,163413,111458,-326826]}],display:{Name:\"{\\\"text\\\":\\\"从云\\\",\\\"italic\\\":false,\\\"color\\\":\\\"#f7c242\\\",\\\"bold\\\":false}\",Lore:[\"{\\\"text\\\":\\\"\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"探索禁忌的旅行没有终点\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"是在东方国家特别打造的一把快剑\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"能做出轻巧的动作与连击特质为其\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"真实价值所在\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_purple\\\"}\",\"{\\\"text\\\":\\\"快剑\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gray\\\"}\"]},Enchantments:[{id:\"looting\",lvl:4},{id:\"unbreaking\",lvl:1}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,display:{Name:\"{\\\"text\\\":\\\"太阳长剑\\\",\\\"italic\\\":false,\\\"color\\\":\\\"#f7c242\\\",\\\"bold\\\":false}\",Lore:[\"{\\\"text\\\":\\\"\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"蕴藏太阳力量的古老长剑\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_purple\\\"}\",\"{\\\"text\\\":\\\"外表看来是普通的长剑\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"但的确蕴藏着太阳的力量\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"那可能是类似偏执的意志下所得的力量\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"大剑\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gray\\\"}\"]},Enchantments:[{id:\"fire_aspect\",lvl:2},{id:\"knockback\",lvl:1},{id:\"sharpness\",lvl:4},{id:\"unbreaking\",lvl:1}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 120,
+                    "name": "minecraft:diamond_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{Operation:0,Amount:1,UUIDLeast:-1921527799988192754L,UUIDMost:2849695779926691432L,AttributeName:\"generic.attackDamage\",Name:\"generic.attackDamage\"},{Operation:0,Amount:1,UUIDLeast:-1225368866749793489L,UUIDMost:2418885441921875812L,AttributeName:\"generic.attackSpeed\",Name:\"generic.attackSpeed\"}],display:{Name:\"[{\\\"text\\\":\\\"至尊镐\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",Lore:[\"{\\\"text\\\":\\\"——————————————————\\\",\\\"color\\\":\\\"dark_aqua\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}\",\"{\\\"text\\\":\\\"传说至尊使用的镐子\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}\",\"{\\\"text\\\":\\\"使用者增加大量的运气\\\",\\\"color\\\":\\\"yellow\\\",\\\"bold\\\":true,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}\"]},RepairCost:2147483647,Enchantments:[{id:\"minecraft:efficiency\",lvl:8s},{id:\"minecraft:fortune\",lvl:3s}]}"
+                        }
+                    ]
+                }
+
+            ]
+        },
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,display:{color:1908001,Name:\"[{\\\"text\\\":\\\"黑骑士胸甲\\\",\\\"italic\\\":false,\\\"bold\\\":false,\\\"color\\\":\\\"#f7c242\\\"}]\",Lore:[\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false}]\",\"[{\\\"text\\\":\\\"对抗亡灵所诞生的黑骑士们\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"如今只剩下这胸甲徘徊于世\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"破败不堪，死气沉沉\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\"],AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:10,Slot:\"chest\",Name:\"generic.armor\",UUID:[I;-123031,99313,111458,-198626]}],Enchantments:[{id:\"projectile_protection\",lvl:4},{id:\"protection\",lvl:7},{id:\"unbreaking\",lvl:5}]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,display:{color:1908001,Name:\"[{\\\"text\\\":\\\"黑骑士铁鞋\\\",\\\"italic\\\":false,\\\"bold\\\":false,\\\"color\\\":\\\"#f7c242\\\"}]\",Lore:[\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false}]\",\"[{\\\"text\\\":\\\"对抗亡灵所诞生的黑骑士们\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"如今只剩下这铁鞋徘徊于世\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"破败不堪，死气沉沉\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\"],AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:2,Slot:\"feet\",Name:\"generic.armor\",UUID:[I;-123031,112513,111458,-225026]}],Enchantments:[{id:\"blast_protection\",lvl:2},{id:\"depth_strider\",lvl:1},{id:\"fire_protection\",lvl:1},{id:\"protection\",lvl:2},{id:\"soul_speed\",lvl:3},{id:\"unbreaking\",lvl:5}]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,display:{color:1908001,Name:\"[{\\\"text\\\":\\\"黑骑士护腿\\\",\\\"italic\\\":false,\\\"bold\\\":false,\\\"color\\\":\\\"#f7c242\\\"}]\",Lore:[\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false}]\",\"[{\\\"text\\\":\\\"对抗亡灵所诞生的黑骑士们\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"如今只剩下这护腿徘徊于世\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"破败不堪，死气沉沉\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\"],AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:6,Slot:\"legs\",Name:\"generic.armor\",UUID:[I;-123031,107713,111458,-215426]}]},Enchantments:[{id:\"minecraft:blast_protection\",lvl:2},{id:\"minecraft:depth_strider\",lvl:1},{id:\"minecraft:fire_protection\",lvl:1},{id:\"minecraft:protection\",lvl:2},{id:\"minecraft:soul_speed\",lvl:3},{id:\"minecraft:unbreaking\",lvl:5}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,display:{color:1908001,Name:\"[{\\\"text\\\":\\\"黑骑士头盔\\\",\\\"italic\\\":false,\\\"bold\\\":false,\\\"color\\\":\\\"#f7c242\\\"}]\",Lore:[\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false}]\",\"[{\\\"text\\\":\\\"对抗亡灵所诞生的黑骑士们\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"如今只剩下这头盔徘徊于世\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"破败不堪，死气沉沉\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\"],AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:2,Slot:\"head\",Name:\"generic.armor\",UUID:[I;-123031,102313,111458,-204626]}],Enchantments:[{id:\"blast_protection\",lvl:4},{id:\"fire_protection\",lvl:1},{id:\"projectile_protection\",lvl:1},{id:\"protection\",lvl:3},{id:\"unbreaking\",lvl:5}]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,display:{color:12454154,Name:\"[{\\\"text\\\":\\\"火焰魔女铠甲\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gold\\\"},{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gold\\\"}]\",Lore:[\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false}]\",\"[{\\\"text\\\":\\\"用以恶魔之火进行淬炼\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"使铠甲附加罪孽的火焰\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"用恶魔之力提升自身力量\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"如同罪孽附加于身\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\"],AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:8,Slot:\"chest\",Name:\"generic.armor\",UUID:[I;-123031,36525,182226,-73050]}],Enchantments:[{id:\"blast_protection\",lvl:3},{id:\"fire_protection\",lvl:8},{id:\"projectile_protection\",lvl:1},{id:\"protection\",lvl:5},{id:\"unbreaking\",lvl:6}]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:chainmail_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:8,Slot:\"chest\",Name:\"generic.armor\",UUID:[I;-123031,65725,182226,-131450]}],display:{Name:\"[{\\\"text\\\":\\\"龙鳞铠甲\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gold\\\"}]\",Lore:[\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false}]\",\"[{\\\"text\\\":\\\"从白龙身上刮下来的龙鳞片\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"一片片龙鳞相交而成的盔甲\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"既有坚韧度，又保持舒适\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"龙鳞有如刀刃般锐利，且无法被燃烧\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\"],Enchantments:[{id:\"fire_protection\",lvl:8},{id:\"projectile_protection\",lvl:5},{id:\"protection\",lvl:6},{id:\"thorns\",lvl:4},{id:\"unbreaking\",lvl:3}]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,display:{color:16643269,Name:\"[{\\\"text\\\":\\\"东方铠甲\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gold\\\"}]\",Lore:[\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false}]\",\"[{\\\"text\\\":\\\"东方国度所制作的特殊铠甲\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"雕琢细腻，工艺价值高\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"也是贵族们收藏的目标\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"为应对东方国度以暗器为主的战斗，\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"对弹射物有较高的减伤率\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\"],AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:6,Slot:\"chest\",Name:\"generic.armor\",UUID:[I;-123031,73725,182226,-147450]}],Enchantments:[{id:\"projectile_protection\",lvl:8},{id:\"protection\",lvl:4},{id:\"unbreaking\",lvl:6}]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:netherite_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:8,Slot:\"chest\",Name:\"generic.armor\",UUID:[I;-123031,192125,182226,-384250]},{AttributeName:\"generic.armor_toughness\",Amount:9,Slot:\"chest\",Name:\"generic.armor_toughness\",UUID:[I;-123031,192225,182226,-384450]},{AttributeName:\"generic.knockback_resistance\",Amount:3,Slot:\"chest\",Name:\"generic.knockback_resistance\",UUID:[I;-123031,192325,182226,-384650]}],display:{Name:\"[{\\\"text\\\":\\\"猎龙铠甲\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gold\\\"}]\",Lore:[\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false}]\",\"[{\\\"text\\\":\\\"“猎龙者”的铠甲\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"带有强大力量的盔甲\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"猎龙者的最高荣耀者\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"才配的上这副铠甲\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"打造之路何其之难\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\"],Enchantments:[{id:\"blast_protection\",lvl:6},{id:\"projectile_protection\",lvl:2},{id:\"protection\",lvl:8}]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000,display:{color:1908001,Name:\"[{\\\"text\\\":\\\"刺针铠甲\\\",\\\"italic\\\":false,\\\"color\\\":\\\"gold\\\"}]\",Lore:[\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false}]\",\"[{\\\"text\\\":\\\"臭名昭著的刺针骑士，中指寇克的铠甲，\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"表面上布满了尖锐的刺针。\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"装备这充满祸害气息的铠甲翻滚，\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"可以直接伤到敌人，\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\",\"[{\\\"text\\\":\\\"正是敌我不分的寇克名副其实的装备。\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}]\"],AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:6,Slot:\"chest\",Name:\"generic.armor\",UUID:[I;-123031,213825,182226,-427650]},{AttributeName:\"generic.movement_speed\",Amount:0.02,Slot:\"chest\",Name:\"generic.movement_speed\",UUID:[I;-123031,213925,182226,-427850]}],Enchantments:[{id:\"protection\",lvl:2},{id:\"thorns\",lvl:7},{id:\"unbreaking\",lvl:3}]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 90,
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:10,Slot:\"offhand\",Name:\"generic.max_health\",UUID:[I;-123031,13406,181254,-26812]}],display:{Name:\"{\\\"text\\\":\\\"圣盾\\\",\\\"italic\\\":false,\\\"color\\\":\\\"#f7c242\\\"}\",Lore:[\"{\\\"text\\\":\\\"\\\",\\\"italic\\\":false}\",\"{\\\"text\\\":\\\"赋予太阳战士们的古老护盾\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"上面有圣徽的图案\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"它将在此祝福你\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_purple\\\"}\",\"{\\\"text\\\":\\\"大盾\\\",\\\"italic\\\":true,\\\"color\\\":\\\"gray\\\"}\"]},Enchantments:[{id:\"unbreaking\",lvl:2}],BlockEntityTag:{Base:3,Patterns:[{Pattern:\"bo\",Color:0},{Pattern:\"sc\",Color:0},{Pattern:\"ls\",Color:8},{Pattern:\"rs\",Color:8},{Pattern:\"sc\",Color:15}]},BlockEntityTag:{Base:3,Patterns:[{Pattern:\"bo\",Color:0},{Pattern:\"sc\",Color:0},{Pattern:\"ls\",Color:8},{Pattern:\"rs\",Color:8},{Pattern:\"flo\",Color:15}]},HideFlags:32}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 90,
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:998,AttributeModifiers:[{AttributeName:\"generic.armor_toughness\",Amount:12,Slot:\"offhand\",Name:\"generic.armor_toughness\",UUID:[I;-123031,226013,111458,-452026]},{AttributeName:\"generic.knockback_resistance\",Amount:10,Slot:\"offhand\",Name:\"generic.knockback_resistance\",UUID:[I;-123031,226113,111458,-452226]},{AttributeName:\"generic.movement_speed\",Amount:-0.04,Slot:\"offhand\",Name:\"generic.movement_speed\",UUID:[I;-123031,226213,111458,-452426]},{AttributeName:\"generic.movement_speed\",Amount:-0.04,Slot:\"mainhand\",Name:\"generic.movement_speed\",UUID:[I;-123031,226313,111458,-452626]}],display:{Name:\"{\\\"text\\\":\\\"猎龙大盾\\\",\\\"italic\\\":false,\\\"color\\\":\\\"#f7c242\\\"}\",Lore:[\"{\\\"text\\\":\\\"为猎龙打造的熔铁大盾。\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"盾牌巨大无比，才配得上猎龙的勇士们\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"}\",\"{\\\"text\\\":\\\"展现猎龙时的战斗英姿。\\\",\\\"italic\\\":false,\\\"color\\\":\\\"white\\\"},{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_purple\\\"}\",\"{\\\"text\\\":\\\"\\\",\\\"italic\\\":false,\\\"color\\\":\\\"dark_purple\\\"}\",\"{\\\"text\\\":\\\"因重量原因,使用者操作时会受到移速影响\\\",\\\"italic\\\":true,\\\"color\\\":\\\"gray\\\"}\"]},Enchantments:[{id:\"unbreaking\",lvl:2}],BlockEntityTag:{Base:15,Patterns:[{Pattern:\"bo\",Color:7},{Pattern:\"cr\",Color:12},{Pattern:\"moj\",Color:14}]},HideFlags:32}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 80,
+                    "name": "minecraft:stone_hoe",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Damage:121,display:{Name:\"[{\\\"text\\\":\\\"地狱十行\\\",\\\"color\\\":\\\"gold\\\",\\\"bold\\\":true,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}]\",Lore:[\"{\\\"text\\\":\\\"——————————————————\\\",\\\"color\\\":\\\"dark_aqua\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}\",\"{\\\"text\\\":\\\"这上面有不详的气息！！\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}\",\"{\\\"text\\\":\\\"我听得见它的哀嚎！！\\\",\\\"color\\\":\\\"green\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}\",\"{\\\"text\\\":\\\"——————————————————\\\",\\\"color\\\":\\\"white\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}\",\"{\\\"text\\\":\\\"只有十次使用机会\\\",\\\"color\\\":\\\"gray\\\",\\\"bold\\\":true,\\\"italic\\\":false,\\\"underlined\\\":true,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}\",\"{\\\"text\\\":\\\"使用者将承受诅咒！！\\\",\\\"color\\\":\\\"gray\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}\",\"{\\\"text\\\":\\\"武器效果：超级推力！！\\\",\\\"color\\\":\\\"red\\\",\\\"bold\\\":true,\\\"italic\\\":false,\\\"underlined\\\":false,\\\"strikethrough\\\":false,\\\"obfuscated\\\":false}\"]},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Slot:\"mainhand\",Amount:-0.05,Operation:0,UUID:[I;1498693494,1027158888,1898994005,860320107]},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Slot:\"offhand\",Amount:-0.05,Operation:0,UUID:[I;1498693494,1027158888,1898994005,860320107]},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Slot:\"offhand\",Amount:-8,Operation:0,UUID:[I;1898693494,1127158888,1298994005,360320107]},{AttributeName:\"generic.max_health\",Name:\"generic.max_health\",Slot:\"mainhand\",Amount:-8,Operation:0,UUID:[I;1848693494,1127158888,1298994005,360320107]}],RepairCost:2147483647,HideFlags:1,Enchantments:[{id:\"minecraft:knockback\",lvl:99s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 70,
+                    "name": "minecraft:fishing_rod",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'[{\"text\":\"海王\",\"italic\":false,\"color\":\"#f7c242\"}]',Lore:['[{\"text\":\"\",\"italic\":false}]','[{\"text\":\"所有的海洋生物都与您\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"有着莫大的联系\",\"italic\":false,\"color\":\"white\"}]','[{\"text\":\"请真诚的对待它/他们吧\",\"italic\":false,\"color\":\"white\"}]']},Enchantments:[{id:\"luck_of_the_sea\",lvl:9},{id:\"lure\",lvl:6},{id:\"unbreaking\",lvl:6}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 20,
+                    "name": "minecraft:totem_of_undying",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 4,
+            "entries": [
+				{
+                    "type": "item",
+                    "weight": 300,
+                    "name": "minecraft:cooked_chicken",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 300,
+                    "name": "minecraft:cooked_beef",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 150,
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 300,
+                    "name": "minecraft:cooked_mutton",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 300,
+                    "name": "minecraft:cooked_rabbit",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 300,
+                    "name": "minecraft:cooked_porkchop",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 400,
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 3
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 400,
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 3
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 450,
+                    "name": "minecraft:bread",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 30,
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": 0
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:invisibility\",display:{Name:\"{\\\"text\\\":\\\"隐身药水\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": 0
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:slowness\",CustomPotionEffects:[{Id:2,Amplifier:1,Duration:200}],display:{Name:\"{\\\"text\\\":\\\"喷溅迟缓药水\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:splash_potion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_damage",
+                            "damage": 0
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:poison\",CustomPotionEffects:[{Id:19,Amplifier:0,Duration:400}],display:{Name:\"{\\\"text\\\":\\\"喷溅中毒药水\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"}}"
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 150,
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 150,
+                    "name": "minecraft:chorus_fruit",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 3
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 140,
+                    "name": "minecraft:tnt",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 420,
+                    "name": "minecraft:clock",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 120,
+                    "name": "minecraft:firework_rocket",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 10
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 430,
+                    "name": "minecraft:string",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 350,
+                    "name": "minecraft:arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 12
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 350,
+                    "name": "minecraft:ender_pearl",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 80,
+                    "name": "minecraft:flint_and_steel",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 4,
+            "entries": [
+				{
+                    "type": "item",
+                    "weight": 350,
+                    "name": "minecraft:iron_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min":1,
+                                "max":5
+                            }
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 100,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count":1
+                        }
+                    ]
+                },
+				{
+                    "type": "item",
+                    "weight": 450,
+                    "name": "minecraft:coal",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 5,
+                                "max": 15
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 320,
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 20
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 400,
+                    "name": "minecraft:spyglass",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 60,
+                    "name": "minecraft:netherite_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 320,
+                    "name": "minecraft:egg",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 110,
+                    "name": "minecraft:anvil",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 230,
+                    "name": "minecraft:iron_horse_armor",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 80,
+                    "name": "minecraft:elytra",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+
+
+
