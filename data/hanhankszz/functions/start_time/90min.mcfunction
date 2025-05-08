@@ -1,3 +1,4 @@
+scoreboard players reset @a choose_game_mode
 worldborder center ~ ~
 worldborder damage amount 0.1
 worldborder damage buffer 14

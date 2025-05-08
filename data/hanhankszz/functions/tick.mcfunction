@@ -2,27 +2,21 @@
 execute as @a unless entity @s[scores={player_processed=0..}] run scoreboard players set @s player_processed 0
 
 # 对所有未处理的玩家执行处理逻辑
-execute as @a[scores={player_processed=0}] run function hanhankszz:process_new_player
+execute as @a[scores={player_processed=0}] run function hanhankszz:give_first/process_new_player
 
 execute as @a run scoreboard players enable @s choose_game_mode
 # 快速对局（15min）
-execute as @a[scores={choose_game_mode=15}] run function hanhankszz:15min
+execute as @a[scores={choose_game_mode=15}] run function hanhankszz:start_time/15min
 # 均速对局（30min）
-execute as @a[scores={choose_game_mode=30}] run function hanhankszz:30min
+execute as @a[scores={choose_game_mode=30}] run function hanhankszz:start_time/30min
 # 持久对局（45min）
-execute as @a[scores={choose_game_mode=45}] run function hanhankszz:45min
+execute as @a[scores={choose_game_mode=45}] run function hanhankszz:start_time/45min
 # 史诗对局（60min）
-execute as @a[scores={choose_game_mode=60}] run function hanhankszz:60min
+execute as @a[scores={choose_game_mode=60}] run function hanhankszz:start_time/60min
 # 马拉松（90min）
-execute as @a[scores={choose_game_mode=90}] run function hanhankszz:90min
+execute as @a[scores={choose_game_mode=90}] run function hanhankszz:start_time/90min
 # 额外空投（30min）
 execute as @a[scores={choose_game_mode=31}] run function hanhankszz:pure_airdrop/pure_airdrop30min
-
-# 初始化未处理玩家
-execute as @a unless entity @s[scores={player_processed=0..}] run scoreboard players set @s player_processed 0
-
-# 对未处理玩家执行发放启动物品逻辑
-execute as @a[scores={player_processed=0}] run function hanhankszz:process_new_player
 
 # 启用触发器
 execute as @a run scoreboard players enable @s choose_game_mode
