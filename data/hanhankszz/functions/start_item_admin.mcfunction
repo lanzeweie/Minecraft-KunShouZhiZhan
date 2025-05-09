@@ -7,7 +7,7 @@ tellraw @a {"text":"从厮杀中坚持到最后！！！","color":"red","bold":t
 tellraw @a {"text":"--------------------","color":"white","bold":true}
 tellraw @s {"text":"您是管理员","color":"gold"}
 tellraw @s {"text":"请打开物品栏《困兽之战》管理员版本","color":"white"}
-tellraw @s {"text":"选择游戏的模式","color":"white"}
+tellraw @s {"text":"选择游戏模式","color":"white"}
 tellraw @s {"text":"--------------------","color":"white","bold":true}
 setworldspawn ~ ~ ~
 spawnpoint @a ~ ~ ~

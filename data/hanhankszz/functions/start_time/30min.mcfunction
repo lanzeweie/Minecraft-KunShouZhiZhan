@@ -12,7 +12,7 @@ execute as @p if score 剩余时间 play_start matches 9999 run title @a title [
 execute as @p if score 剩余时间 play_start matches 9999 run title @a subtitle [{"text":"30min","color":"yellow","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
 execute as @p if score 剩余时间 play_start matches 9999 run scoreboard players set 剩余时间 play_start 15
 execute as @p unless score 剩余时间 play_start matches ..0 run scoreboard players remove 剩余时间 play_start 1
-execute as @p unless score 剩余时间 play_start matches ..0 run schedule function hanhankszz:30min 1s
+execute as @p unless score 剩余时间 play_start matches ..0 run schedule function hanhankszz:start_time/30min 1s
 execute as @p unless score 剩余时间 play_start matches ..0 run effect give @a minecraft:regeneration 300 9 true
 execute as @p if score 剩余时间 play_start matches 14 run clear @a minecraft:written_book{display:{Name:'{"text":"困兽之战(管理员版本)"}'}}
 
