@@ -21,10 +21,14 @@ execute as @a[scores={choose_game_mode=31}] run function hanhankszz:pure_airdrop
 execute as @a run scoreboard players enable @s choose_game_mode
 execute as @a run scoreboard players enable @s choose_game_mode_airboot_time
 
-# 监听使用启动棒（CustomModelData=123456）
-execute as @a[scores={using_start_item=1..}] if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:123456}}}] run function hanhankszz:start_item_admin
-scoreboard players set @a[scores={using_start_item=1..}] using_start_item 0
+# 监听使用启动棒（CustomModelData=123456） 启动游戏
+# 如果是开发者，可以把下方取消注释，把下下两行加上注释，作用是独自也能启动游戏
+#execute as @a[scores={using_start_item=1..}] if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:123456}}}] run function hanhankszz:start_item_admin
+#scoreboard players set @a[scores={using_start_item=1..}] using_start_item 0
+execute as @a[scores={using_start_item=1..}] if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:123456}}}] if score §a在线人数 online_players matches 2.. run function hanhankszz:start_item_admin
+execute as @a[scores={using_start_item=1..}] if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:123456}}}] unless score §a在线人数 online_players matches 2.. run tellraw @s {"text":"玩家人数不足，至少需要2名玩家才能启动游戏","color":"red"}
 
+scoreboard players set @a[scores={using_start_item=1..}] using_start_item 0
 
 # 统计玩家数量
 scoreboard players set §a在线人数 online_players 0
