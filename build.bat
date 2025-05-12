@@ -8,7 +8,7 @@ set zipname="困兽之战.zip"
 
 if exist %zipname% del %zipname%
 
-tar -a -c -f %zipname% pack.mcmeta data
+tar -a -c -f %zipname% pack.mcmeta data pack.png
 
 echo ✔ 数据包打包已完成：%zipname%
 echo 按下任意键关闭窗口...

@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 40,
-    "description": "涵涵的困兽生存之战"
+    "pack_format": 15,
+    "supported_formats": [9,10,11,12,13,14,15,16,17, 18,23],
+    "description": "涵涵的我的世界大逃杀玩法"
   }
 }
