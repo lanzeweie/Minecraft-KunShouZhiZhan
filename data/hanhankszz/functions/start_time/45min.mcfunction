@@ -61,6 +61,7 @@ execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 p
 execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 4 run tellraw @a [{"text":"空投频率/20分钟","color":"green","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
 execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 5 run tellraw @a [{"text":"空投频率/25分钟","color":"green","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
 execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 6 run tellraw @a [{"text":"空投频率/30分钟","color":"green","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 100 run tellraw @a [{"text":"空投频率/禁用空投","color":"red","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
 
 #开始
 execute as @p if score 剩余时间 play_start matches 0 run gamemode survival @a[gamemode=!survival]
