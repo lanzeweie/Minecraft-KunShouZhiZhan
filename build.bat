@@ -1,7 +1,10 @@
 @echo off
 chcp 65001 >nul
-
-set zipname=KunShouZhiZhan.zip
+echo 《困兽之战》 
+echo github: https://github.com/lanzeweie/Minecraft-KunShouZhiZhan
+echo 小黑盒：你今天很怠惰呢 UID：13475401
+echo 版本：4.0.0
+set zipname="困兽之战.zip"
 
 if exist %zipname% del %zipname%
 

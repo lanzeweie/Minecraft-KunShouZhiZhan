@@ -1,3 +1,4 @@
+# 新版空投，改为设定时间
 title @a title [{"text":"空投已经投放","color":"yellow","bold":true}]
 title @a subtitle {"text":"请注意空中发光物体","color":"yellow"}
 
@@ -27,5 +28,10 @@ execute as @e[tag=airdrop2,type=chest_minecart] run tellraw @a[gamemode=survival
 # 杀死所有带有"airdrop"标签的盔甲架
 kill @e[tag=airdrop]
 
-# 15分钟后重新运行此函数
-schedule function hanhankszz:airboot_time/airboot15min 300s
+# 根据用户设置时间来运行  不同的值运行不同的数值 0=默认(此处不存在，因为不会触发此脚本) 1=300s 2=600s 3=900s 4=1200s 5=1500s 6=1800s 
+execute as @p if score 空投时间 player_airboot_time matches 1 run schedule function hanhankszz:airboot_time/airboot_tongyong 300s
+execute as @p if score 空投时间 player_airboot_time matches 2 run schedule function hanhankszz:airboot_time/airboot_tongyong 600s
+execute as @p if score 空投时间 player_airboot_time matches 3 run schedule function hanhankszz:airboot_time/airboot_tongyong 900s
+execute as @p if score 空投时间 player_airboot_time matches 4 run schedule function hanhankszz:airboot_time/airboot_tongyong 1200s
+execute as @p if score 空投时间 player_airboot_time matches 5 run schedule function hanhankszz:airboot_time/airboot_tongyong 1500s
+execute as @p if score 空投时间 player_airboot_time matches 6 run schedule function hanhankszz:airboot_time/airboot_tongyong 1800s

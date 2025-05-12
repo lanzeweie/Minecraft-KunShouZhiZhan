@@ -6,6 +6,17 @@ worldborder warning distance 4
 worldborder set 3000
 scoreboard players set 结束游戏 play_end 60
 
+# 设置空投时间 不同的值运行不同的数值 默认0 
+# 0=默认函数内置的 1=300s 2=600s 3=900s 4=1200s 5=1500s 6=1800s    
+# 并且在开始的时候就会用另一个值来固定值
+scoreboard objectives add player_airboot_time dummy
+execute as @a[scores={choose_game_mode_airboot_time=0}] run scoreboard players set 空投时间 player_airboot_time 0
+execute as @a[scores={choose_game_mode_airboot_time=1}] run scoreboard players set 空投时间 player_airboot_time 1
+execute as @a[scores={choose_game_mode_airboot_time=2}] run scoreboard players set 空投时间 player_airboot_time 2
+execute as @a[scores={choose_game_mode_airboot_time=3}] run scoreboard players set 空投时间 player_airboot_time 3
+execute as @a[scores={choose_game_mode_airboot_time=4}] run scoreboard players set 空投时间 player_airboot_time 4
+execute as @a[scores={choose_game_mode_airboot_time=5}] run scoreboard players set 空投时间 player_airboot_time 5
+execute as @a[scores={choose_game_mode_airboot_time=6}] run scoreboard players set 空投时间 player_airboot_time 6
 
 #预准备
 execute as @p if score 剩余时间 play_start matches 9999 run title @a title [{"text":"《困兽之战》","color":"yellow","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
@@ -57,7 +68,8 @@ execute as @p if score 剩余时间 play_start matches 0 run time set day
 execute as @p if score 剩余时间 play_start matches 0 run worldborder set 200 1800
 execute as @p if score 剩余时间 play_start matches 0 run schedule function hanhankszz:hexin/hexin_0 1s
 execute as @p if score 剩余时间 play_start matches 0 run schedule function hanhankszz:hexin/hexin_1 1s
-execute as @p if score 剩余时间 play_start matches 0 run schedule function hanhankszz:airboot_time/airboot30min 500s
+execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 0 run schedule function hanhankszz:airboot_time/airboot30min 500s
+execute as @p if score 剩余时间 play_start matches 0 unless score 空投时间 player_airboot_time matches 0 run function hanhankszz:airboot_time/airboot_tongyong
 
 execute as @p if score 剩余时间 play_start matches 0 run scoreboard objectives add survivors dummy
 
