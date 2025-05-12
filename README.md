@@ -1,4 +1,6 @@
 # 困兽之战
+简体中文 | [English](./README_en.md) | [日本語](./README_jp.md) 
+
 ![版本](https://img.shields.io/badge/版本-4.0.0-brightgreen)
 ![Minecraft版本](https://img.shields.io/badge/Minecraft-Java版-orange)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/lanzeweie/Minecraft-KunShouZhiZhan)
