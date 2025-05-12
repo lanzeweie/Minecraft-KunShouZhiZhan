@@ -56,6 +56,13 @@ execute as @p if score 剩余时间 play_start matches 0 run tellraw @a [{"text"
 execute as @p if score 剩余时间 play_start matches 0 run tellraw @a [{"text":"你需要持下去！并且存活！杀死看见的有人！相信你自己，活到最后到吧！！！！","color":"yellow","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
 execute as @p if score 剩余时间 play_start matches 0 run tellraw @a [{"text":"你需要持下去！并且存活！杀死看见的有人！相信你自己，活到最后到吧！！！！","color":"yellow","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
 execute as @p if score 剩余时间 play_start matches 0 run tellraw @a [{"text":"—————————————————————————————————————","color":"white","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 0 run tellraw @a [{"text":"空投频率/默认时间","color":"green","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 1 run tellraw @a [{"text":"空投频率/5分钟","color":"green","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 2 run tellraw @a [{"text":"空投频率/10分钟","color":"green","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 3 run tellraw @a [{"text":"空投频率/15分钟","color":"green","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 4 run tellraw @a [{"text":"空投频率/20分钟","color":"green","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 5 run tellraw @a [{"text":"空投频率/25分钟","color":"green","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 6 run tellraw @a [{"text":"空投频率/30分钟","color":"green","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
 
 #开始
 execute as @p if score 剩余时间 play_start matches 0 run gamemode survival @a[gamemode=!survival]
@@ -70,8 +77,14 @@ execute as @p if score 剩余时间 play_start matches 0 run time set day
 execute as @p if score 剩余时间 play_start matches 0 run worldborder set 200 900
 execute as @p if score 剩余时间 play_start matches 0 run schedule function hanhankszz:hexin/hexin_0 1s
 execute as @p if score 剩余时间 play_start matches 0 run schedule function hanhankszz:hexin/hexin_1 1s
+#空投时间设置
 execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 0 run schedule function hanhankszz:airboot_time/airboot15min 300s
-execute as @p if score 剩余时间 play_start matches 0 unless score 空投时间 player_airboot_time matches 0 run function hanhankszz:airboot_time/airboot_tongyong
+execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 1 run schedule function hanhankszz:airboot_time/airboot_tongyong 300s
+execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 2 run schedule function hanhankszz:airboot_time/airboot_tongyong 600s
+execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 3 run schedule function hanhankszz:airboot_time/airboot_tongyong 900s
+execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 4 run schedule function hanhankszz:airboot_time/airboot_tongyong 1200s
+execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 5 run schedule function hanhankszz:airboot_time/airboot_tongyong 1500s
+execute as @p if score 剩余时间 play_start matches 0 if score 空投时间 player_airboot_time matches 6 run schedule function hanhankszz:airboot_time/airboot_tongyong 1800s
 
 execute as @p if score 剩余时间 play_start matches 0 run scoreboard objectives add survivors dummy
 #抛弃上一个判断点
