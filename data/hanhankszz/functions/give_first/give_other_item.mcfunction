@@ -1,9 +1,9 @@
-tellraw @s {"text":"小游戏 ","color":"white","extra":[{"text":"《困兽之战》","color":"gold"},{"text":" 我的世界的经典大逃杀玩法","color":"white"}]}
+tellraw @s {"text":"小游戏 ","color":"white","extra":[{"text":"《困兽之战》","color":"gold"},{"text":" 我的世界的大逃杀玩法","color":"white"}]}
 tellraw @s {"text":"当前版本：","color":"white","extra":[{"text":"4.0.0","color":"gold","underlined":true}]}
 tellraw @s {"text":"官方与建议：","color":"white"}
 tellraw @s {"text":"小黑盒： ","color":"white","extra":[{"text":"\"你今天很怠惰呢\"","color":"gold"},{"text":" id：","color":"white"},{"text":"13475401","color":"gold"}]}
 tellraw @s {"text":"github：","color":"white","extra":[{"text":"https://github.com/lanzeweie/Minecraft-KunShouZhiZhan","color":"gold","clickEvent":{"action":"open_url","value":"https://github.com/lanzeweie/Minecraft-KunShouZhiZhan"}}]}
-tellraw @s {"text":"邮箱：","color":"white","extra":[{"text":"lanzeweie@foxmail.com","color":"gold"}]}
+tellraw @s {"text":"Minecraft交流QQ群：","color":"white","extra":[{"text":"【487795050】","color":"green","clickEvent":{"action":"copy_to_clipboard","value":"487795050"},"hoverEvent":{"action":"show_text","contents":"点击复制QQ群号"}}]}
 tellraw @s {"text":"--------------------","color":"white","bold":true}
 tellraw @s {"text":"《困兽之战》","color":"gold","bold":true}
 tellraw @s {"text":"在不断缩小的圈中存活下来，搜索物资，等待空投，击杀其他玩家，当场上只剩下一个存活玩家的时候，获得胜利。","color":"white"}
