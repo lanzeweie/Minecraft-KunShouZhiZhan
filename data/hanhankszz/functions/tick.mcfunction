@@ -24,3 +24,8 @@ execute as @a run scoreboard players enable @s choose_game_mode_airboot_time
 # 监听使用启动棒（CustomModelData=123456）
 execute as @a[scores={using_start_item=1..}] if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:123456}}}] run function hanhankszz:start_item_admin
 scoreboard players set @a[scores={using_start_item=1..}] using_start_item 0
+
+
+# 统计玩家数量
+scoreboard players set §a在线人数 online_players 0
+execute as @a run scoreboard players add §a在线人数 online_players 1

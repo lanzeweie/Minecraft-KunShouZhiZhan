@@ -1,7 +1,7 @@
 tellraw @s {"text":"小游戏 ","color":"white","extra":[{"text":"《困兽之战》","color":"gold"},{"text":" 我的世界的大逃杀玩法","color":"white"}]}
-tellraw @s {"text":"当前版本：","color":"white","extra":[{"text":"4.0.0","color":"gold","underlined":true}]}
+tellraw @s [{"text":"当前版本：","color":"white"},{"text":"4.0.0","color":"gold","underlined":true},{"text":" 注意:无内置更新,最新版本请关注小黑盒原帖/github","color":"gray"}]
 tellraw @s {"text":"官方与建议：","color":"white"}
-tellraw @s {"text":"小黑盒： ","color":"white","extra":[{"text":"\"你今天很怠惰呢\"","color":"gold"},{"text":" id：","color":"white"},{"text":"13475401","color":"gold"}]}
+tellraw @s [{"text":"小黑盒： ","color":"white"},{"text":"\"你今天很怠惰呢\"","color":"gold"},{"text":" id：","color":"white"},{"text":"13475401","color":"gold"},{"text":" 站内搜索《困兽之战》","color":"gray"}]
 tellraw @s {"text":"github：","color":"white","extra":[{"text":"https://github.com/lanzeweie/Minecraft-KunShouZhiZhan","color":"gold","clickEvent":{"action":"open_url","value":"https://github.com/lanzeweie/Minecraft-KunShouZhiZhan"}}]}
 tellraw @s {"text":"Minecraft交流QQ群：","color":"white","extra":[{"text":"【487795050】","color":"green","clickEvent":{"action":"copy_to_clipboard","value":"487795050"},"hoverEvent":{"action":"show_text","contents":"点击复制QQ群号"}}]}
 tellraw @s {"text":"--------------------","color":"white","bold":true}
